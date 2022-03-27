@@ -1,0 +1,41 @@
+.Caroudimention{
+    width: 100%;
+    height: 8%; 
+}
+.formdimentions{
+    width: 100%;
+    height: 30%;
+}
+.imagesdimenion{
+    width: 100%;
+    height: 100%; 
+}
+.colfirst{
+    margin-top: 15px;
+    width: 100%;
+    height: 15%; 
+}
+.colsecond{
+    width: 50%;
+    height: 8%;  
+}
+.arrow{
+    height: 80px;
+    width:80px;
+}
+.divarrow{
+    float: left;
+}
+.divcollection{
+    margin-top: 15px;
+    text-align: center;
+    background-color: khaki;
+}
+.canllection {
+    height: 8%;
+    width: 100%;
+    background-color: aqua;
+  }
+.textthree{
+    color: black;
+}

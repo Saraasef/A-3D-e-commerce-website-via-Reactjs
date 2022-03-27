@@ -1,0 +1,197 @@
+/* .app-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+.nav-link {
+  margin-left: 24px;
+  font-size: 18px;
+  color: #14B34E;
+  transition: .5s ease;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  text-decoration: none;
+  color: #0D7834;
+} */
+
+/* Products */
+
+.thumbnail {
+  margin-bottom: 8px;
+  margin-top: 24px;
+  transition: .5s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.photo-thumb {
+  width: 350px;
+  height: auto;
+}
+
+.box-thumb {
+  width: 350px;
+  border: 1px solid #CCCCCC;
+}
+
+.thumb-link:hover {
+  text-decoration: none;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.star {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #F78F00;
+  font-size: 24px;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+.price::before {
+  content: 'تومان';
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 8px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Utils */
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mr {
+  margin-right: 80px;
+}
+
+.ml {
+  margin-left: 30px;
+}
+
+.mt{
+  margin-top: 30px;
+}
+
+.mb{
+  margin-bottom: 30px;
+}
+
+.display {
+  font-size: 48px;
+}
+
+.mt-input {
+  margin-top: 15px;
+}
+
+.no-border {
+  border-top: none !important;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+
+/* Cart */
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  vertical-align: inherit !important;
+}
+
+tfoot {
+  font-size: 24px;
+}
+
+form .btn-success {
+  margin-top: 40px;
+}
+
+.votes-wrapper-page {
+  display: inline-block;
+  position: relative;
+  left: 302px;
+  top: -44px;
+}
+
+.container {
+  margin-bottom: 80px;
+}
+
+table .btn {
+  margin-right: 16px;
+}
+
+/* React modal */
+
+.Modal {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  left: 50%;
+  outline: none;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+.Overlay {
+  background-color: rgba(0, 0, 0, .7);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.close-btn {
+  background: transparent;
+  color: #383838;
+  border: none;
+  outline: none;
+  font-size: 32px;
+  position: absolute;
+  right: 12px;
+  top: 4px;
+}
+
+.login-box {
+  width: 250px;
+  display: block;
+  margin: 16px auto;
+}
+
+.panel-default>.panel-heading {
+  color: #fff;
+  background: #383838;
+  text-transform: uppercase;
+  text-align: center;
+}

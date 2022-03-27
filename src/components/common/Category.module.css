@@ -1,0 +1,57 @@
+.news{
+  height: 450px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  /* background-color: rgba(255, 179, 143, 1);  */
+  
+}
+
+.linkkidkala{
+  margin-top: 10px;
+  margin-right: 17%;
+  text-align: right;
+  font-size: 1.2em;
+}
+.listactivity{
+ margin-top: 8px;
+font-size: 1.1em;
+}
+.listactivitylink{
+float: right;
+ font-size: 1.2em; 
+}
+.jumpingnews{
+ margin-top: 40px;
+ width: 40px;
+ height: 10px;
+}
+.newsfont1{
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 43%;
+  margin-top: 30px;
+}
+.newsfont1text{
+  margin-top: 30px;
+  font-size: 1.5em;
+  background-image: linear-gradient(to right, violet, yellow, violet, gray, orange, violet, violet);
+}
+.cardtitle text-white{
+text-align: center;
+}
+.degree{
+  width: 20px;
+  height: 20px;
+}
+.newsanimationvideodiv{
+  /* border: 2px dashed black; */
+}
+.newsanimationvideotext{
+  margin-top: 15px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+.newsarrow{
+  width:15%;
+  height: 20%;
+}
